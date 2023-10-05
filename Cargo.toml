@@ -1,0 +1,12 @@
+[package]
+name = "dummy-qe"
+version = "0.1.0"
+authors = ["Jan"]
+edition = "2018"
+rust-version = "1.56"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
